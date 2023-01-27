@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8df4c5ad4594c469f241325272b871, type: 3}
+  m_Name: 6. PotionReseler
+  m_EditorClassIdentifier: 
+  ID: 6
+  image: {fileID: 21300000, guid: 4e6d39b60f107b94594c6c568a30d34f, type: 3}
+  BuildingUpdateScriptableObjects: []
+  title: Potion reseler
+  description: 
+  base_income: 400
+  base_cost:
+  - Currency: 0
+    Cost:
+      mantissa: 2
+      exponent: 5
+  update_percent: 1.08
+  duration: 0
+  localizationTitleID: 0
+  localizationDescriptionID: 0
